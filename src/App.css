@@ -35,3 +35,67 @@
   margin: 1rem 1rem;
   text-align: center;
 }
+.section_text {
+  align-self: center;
+  text-align: center;
+}
+.section_text p {
+  font-weight: 600;
+}
+.section_text_p1 {
+  text-align: center;
+}
+.section_text_p2 {
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+.about-pic {
+  justify-content: center;
+  height: auto;
+  width: auto;
+  border-radius: 3rem;
+}
+.about-containers {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+.about-containers,
+.about-detail-container {
+  display: flex;
+}
+.about-detail-container {
+  flex-direction: column;
+  justify-content: center;
+}
+.details-container {
+  margin: 1rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 2rem;
+  border: gray 0.05rem solid;
+  border-color: black;
+  flex: 0.5;
+  text-align: center;
+}
+.icon {
+  cursor: pointer;
+  height: 2rem;
+  margin: 0.25rem;
+}
+
+.btn {
+  font-weight: 500;
+  padding: 1rem;
+  transition: all 400ms ease;
+  width: 10rem;
+  border-radius: 2rem; /*makes border rounded */
+}
+.btn-color-1 {
+  border: rgb(54, 54, 54) 0.1 solid;
+}
+.btn-color-1:hover {
+  cursor: pointer;
+  background: rgb(54, 54, 54);
+  color: white;
+}

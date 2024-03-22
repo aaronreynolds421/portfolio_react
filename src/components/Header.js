@@ -2,6 +2,7 @@ export default function Header() {
   const logo = require("../assets/BaR_logo.png");
   const linkD = require("../assets/linkedin.png");
   const gitH = require("../assets/github.png");
+
   return (
     <nav className="nav-bar">
       <img class="logo" src={logo} alt="profile_logo" />
@@ -9,9 +10,7 @@ export default function Header() {
         <li>
           <a href="/">Home</a>
         </li>
-        <li>
-          <a href="/about">About</a>
-        </li>
+
         <li>
           <a href="/projects">Projects</a>
         </li>
