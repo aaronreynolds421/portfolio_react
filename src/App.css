@@ -8,7 +8,6 @@
 .nav-bar ul {
   list-style: none;
   display: flex;
-  
 }
 .nav-bar ul li {
   margin: 1rem 2rem;
@@ -20,7 +19,7 @@
 }
 .logo {
   height: 3rem;
-  display:flex;
+  display: flex;
   margin: 1rem 1rem;
 }
 .linkD {
