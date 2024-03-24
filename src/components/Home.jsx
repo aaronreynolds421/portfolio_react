@@ -1,10 +1,12 @@
 export default function Home() {
-  const resume = require("../assets/Bennie_Resume.pdf");
+  const resume = require("../assets/Bennie_Reynolds-Resume.pdf");
   const pflPic = require("../assets/bennie-reynolds-pic.png");
   const Exp = require("../assets/experience.png");
   const Edu = require("../assets/education.png");
+  const linkD = require("../assets/linkedin.png");
+  const gitH = require("../assets/github.png");
   return (
-    <div class="section_text">
+    <section class="section_text">
       <p class="section_text_p1">Hello, I'm</p>
       <h1 class="title">Bennie Reynolds</h1>
       <p class="section_text_p2">Front End Developer</p>
@@ -17,13 +19,27 @@ export default function Home() {
             </button>
           </a>
         </div>
+        <div classname="links">
+          <a
+            href="https://www.linkedin.com/in/bennie-reynolds-529818175/"
+            target="_blank"
+            rel="noopener noreferrer">
+            <img className="linkD" src={linkD} alt="linkedIn_logo" />
+          </a>
+          <a
+            href="https://github.com/aaronreynolds421"
+            target="_blank"
+            rel="noopener noreferrer">
+            <img className="gitH" src={gitH} alt="gitHub_logo" />
+          </a>
+        </div>
+        <div class="section_pic-container">
+          <img src={pflPic} alt="Profile" class="about-pic" />
+        </div>
         <section id="about">
           <p class="section_text_p1">Get to Know More</p>
           <h1 class="title">About Me</h1>
           <div class="section_container">
-            <div class="section_pic-container">
-              <img src={pflPic} alt="Profile" class="about-pic" />
-            </div>
             <div class="about-detail-container">
               <div class="details-container">
                 <p>
@@ -59,6 +75,6 @@ export default function Home() {
           </div>
         </section>
       </div>
-    </div>
+    </section>
   );
 }
