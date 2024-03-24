@@ -40,8 +40,9 @@
 }
 
 .footer p {
-  margin: 1rem 1rem;
+  
   text-align: center;
+  background: #f5fcff;
 }
 .title {
   font-size: 2rem;
@@ -111,11 +112,11 @@
   color: white;
 }
 
-.projects-home{
+.projects-home {
   text-align: center;
-  margin:3rem;
+  margin: 3rem;
 }
-.Contact-Home{
+.Contact-Home {
   text-align: center;
-  margin:3rem;
+  margin: 3rem;
 }
