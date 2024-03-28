@@ -5,14 +5,20 @@ export default function Header() {
       <img className="logo" src={logo} alt="profile_logo" />
       <ul>
         <li>
-          <a className="router" href="/">Home</a>
+          <a className="router" href="/">
+            Home
+          </a>
         </li>
 
         <li>
-          <a className="router" href="/projects">Projects</a>
+          <a className="router" href="/projects">
+            Projects
+          </a>
         </li>
         <li>
-          <a className="router" href="/contact">Contact</a>
+          <a className="router" href="/contact">
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
