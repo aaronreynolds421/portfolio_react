@@ -6,14 +6,18 @@ export default function Home() {
   const linkD = require("../assets/linkedin.png");
   const gitH = require("../assets/github.png");
   return (
-    <section class="section_text">
-      <p class="section_text_p1">Hello, I'm</p>
-      <h1 class="title">Bennie Reynolds</h1>
-      <p class="section_text_p2">Front End Developer</p>
-      <div class="btn-container">
-        <a href={resume} target="_blank" rel="noopener noreferrer">
+    <section className="section_text">
+      <p className="section_text_p1">Hello, I'm</p>
+      <h1 className="title">Bennie Reynolds</h1>
+      <p className="section_text_p2">Front End Developer</p>
+      <div className="button-container">
+        <a
+          href={resume}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="resume">
           {/*without this, there is a security risk in older browsers*/}
-          <button class="btn btn-color-1" src={resume} alt="resume">
+          <button class="button btn-color-1" src={resume} alt="resume">
             Download Resume
           </button>
         </a>

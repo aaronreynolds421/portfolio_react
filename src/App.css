@@ -104,18 +104,20 @@
   height: 2rem;
   margin: 0.25rem;
 }
-.btn-container {
+.button-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
   margin: 1rem;
 }
-.btn {
+
+.button {
   font-weight: 500;
   padding: 1rem;
   transition: all 400ms ease;
   width: 10rem;
-  border-radius: 2rem; /*makes border rounded */
+  border-radius: 2rem;
+  /*makes border rounded */
 }
 .btn-color-1 {
   border: rgb(54, 54, 54) 0.1 solid;
@@ -134,13 +136,24 @@
   margin: 0;
   padding: 1rem;
 }
-.Contact-Home {
-  width: 80%;
-  margin: 50px auto;
+.contact-Home {
+  width: 60%;
+  margin: 10px auto;
 }
 .contact-box {
-  background: #cfd8dc;
+  background: rgb(198, 197, 204);
+  background: linear-gradient(
+    90deg,
+    rgba(198, 197, 204, 1) 0%,
+    rgba(194, 194, 207, 1) 37%,
+    rgba(123, 127, 128, 1) 100%
+  );
   display: flex;
+}
+.contact-box h3 {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  padding:1rem;
 }
 .contact-left {
   flex-basis: 60%;
@@ -149,5 +162,13 @@
 .contact-right {
   flex-basis: 60%;
   padding: 40px 60px;
-  background: #cfd8cc;
 }
+.contact-right h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+.contact-left h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
