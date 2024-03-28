@@ -2,7 +2,7 @@ export default function Header() {
   const logo = require("../assets/BaR_logo.png");
   return (
     <nav className="desktop-nav-bar">
-      <img class="logo" src={logo} alt="profile_logo" />
+      <img className="logo" src={logo} alt="profile_logo" />
       <ul>
         <li>
           <a className="router" href="/">Home</a>

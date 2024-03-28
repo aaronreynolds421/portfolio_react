@@ -17,7 +17,7 @@ export default function Home() {
           rel="noopener noreferrer"
           className="resume">
           {/*without this, there is a security risk in older browsers*/}
-          <button class="button btn-color-1" src={resume} alt="resume">
+          <button className="button btn-color-1" src={resume} alt="resume">
             Download Resume
           </button>
         </a>
@@ -36,15 +36,15 @@ export default function Home() {
           <img className="gitH" src={gitH} alt="gitHub_logo" />
         </a>
       </div>
-      <div class="section_pic-container">
-        <img src={pflPic} alt="Profile" class="about-pic" />
+      <div className="section_pic-container">
+        <img src={pflPic} alt="Profile" className="about-pic" />
       </div>
       <section id="about">
-        <p class="section_text_p1">Get to Know More</p>
-        <h1 class="title">About Me</h1>
-        <div class="section_container">
-          <div class="about-detail-container">
-            <div class="details-container">
+        <p className="section_text_p1">Get to Know More</p>
+        <h1 className="title">About Me</h1>
+        <div className="section_container">
+          <div className="about-detail-container">
+            <div className="details-container">
               <p>
                 Motivated Marine Corps veteran pursuing a career in front-end
                 development, combining disciplined military training with a
@@ -56,17 +56,17 @@ export default function Home() {
                 tech industry.
               </p>
             </div>
-            <div class="about-containers">
-              <div class="details-container">
-                <img src={Exp} alt="Experience Icon" class="icon" />
+            <div className="about-containers">
+              <div className="details-container">
+                <img src={Exp} alt="Experience Icon" className="icon" />
                 <h3>Experience</h3>
                 <p>
                   1 year <br />
                   FrontEnd Development
                 </p>
               </div>
-              <div class="details-container">
-                <img src={Edu} alt="Experience Icon" class="icon" />
+              <div className="details-container">
+                <img src={Edu} alt="Experience Icon" className="icon" />
                 <h3>Education</h3>
                 <p>
                   Associates Degree <br />

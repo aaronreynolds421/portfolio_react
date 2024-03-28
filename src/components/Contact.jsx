@@ -1,14 +1,17 @@
 import emailjs from "emailjs-com";
-
+import { useRef } from "react";
 export default function Contact() {
   document.body.style.backgroundColor = "#f5fcff";
-
+  const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_y1rb8gu", "template_jq6xcb7", e.current, {
-        publicKey: "user_cRZTKcWqwVI_3ahNC",
-      })
+      .sendForm(
+        "service_y1rb8gu",
+        "template_cmnqrgj",
+        form.current,
+        "CWuC04Z1mv19I0Fxw"
+      )
       .then(
         (res) => {
           console.log("SUCCESS!");
@@ -32,10 +35,10 @@ export default function Contact() {
         </div>
         <div className="contact-right">
           <h3>Send me a Message</h3>
-          <form onSubmit={sendEmail}>
-            <label>name</label>
+          <form ref={form} onSubmit={sendEmail}>
+            <label>Name</label>
             <input
-              type="name"
+              type="text"
               name="user_name"
               className="form-control"
               placeholder="Your Name Here"
