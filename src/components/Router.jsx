@@ -22,8 +22,8 @@ export default function Router() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="/" element={<Home />}></Route>
-            <Route path="projects" element={<Projects />}></Route>
-            <Route path="contact" element={<Contact />}></Route>
+            <Route path="/projects" element={<Projects />}></Route>
+            <Route path="/contact" element={<Contact />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
