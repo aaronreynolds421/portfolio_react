@@ -1,4 +1,4 @@
-import Header from "./Header";
+import Header from "./Header/Header.jsx";
 
 import Home from "./Home";
 import Contact from "./Contact";
