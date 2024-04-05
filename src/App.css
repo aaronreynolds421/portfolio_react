@@ -161,12 +161,9 @@ header {
     rgba(123, 127, 128, 1) 100%
   );
   display: flex;
+  justify-content: space-between;
 }
-.contact-box h3 {
-  margin-top: -1rem;
-  margin-bottom: 1rem;
-  padding: 1rem;
-}
+
 .contact-left {
   flex: 1;
   padding: 40px 60px;
@@ -188,8 +185,8 @@ header {
 .contact-box label {
   display: flex;
 }
-/* Media query for screens smaller than 768px */
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1050px) {
   .contact-box {
     flex-direction: column;
   }
